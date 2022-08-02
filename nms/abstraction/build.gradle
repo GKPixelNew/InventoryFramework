@@ -17,4 +17,5 @@ description = 'abstraction'
 
 java {
     withJavadocJar()
+    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 }

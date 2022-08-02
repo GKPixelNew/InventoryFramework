@@ -24,4 +24,5 @@ description = '1_19'
 
 java {
     withJavadocJar()
+    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 }
